@@ -42,7 +42,9 @@ const GroupMembers = ({ members }) => {
                     </Badge>
                   )}
                 </div>
-                {isAdmin && <span>Admin</span>}
+                {isAdmin && (
+                  <span className="text-xs text-muted-foreground">Admin</span>
+                )}
               </div>
             </div>
           </div>

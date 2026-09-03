@@ -32,7 +32,7 @@ export const getGroupExpenses = query({
           id: u._id,
           name: u.name,
           imageUrl: u.imageUrl,
-          role: u.role,
+          role: m.role,
         };
       }),
     );
